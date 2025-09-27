@@ -1,0 +1,58 @@
+- assets
+  - error.png
+  - run.png
+- backend
+  - .env
+  - .gitignore
+  - package-lock.json
+  - package.json
+  - src
+    - app.js
+    - constants.js
+    - controllers
+      - auth.controller.js
+    - lib
+      - db.js
+      - utils.js
+    - middlewares
+      - auth.middleware.js
+    - models
+      - user.model.js
+    - routes
+      - auth.route.js
+      - execute.route.js
+  - vercel.json
+- frontend
+  - .env
+  - .gitignore
+  - eslint.config.js
+  - index.html
+  - package-lock.json
+  - package.json
+  - public
+    - mac-command-svgrepo-com.svg
+    - vite.svg
+  - README.md
+  - src
+    - App.jsx
+    - components
+      - CodeEditor.jsx
+      - CodeEditorSettingsModal.jsx
+      - LoginModal.jsx
+      - Navbar.jsx
+      - ProfileModal.jsx
+      - SignUpModal.jsx
+      - UserNavBar.jsx
+    - index.css
+    - lib
+      - axios.js
+    - main.jsx
+    - pages
+      - HomePage.jsx
+      - UserHomePage.jsx
+    - store
+      - codeStore.js
+      - useAuthStore.js
+  - vite.config.js
+- LICENSE
+- README.md
